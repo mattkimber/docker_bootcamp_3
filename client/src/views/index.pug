@@ -1,0 +1,14 @@
+html
+  head
+    title= title
+    style
+      include site.css    
+  body
+    h1= header
+    div#chat
+    script(language="javascript")
+      include chat.js
+    div#interface
+      input(type="text", id="username", value="anonymous")
+      input(type="text", id="message")
+      input(type="submit", id="sendButton", onClick="sendMessage()",value="Send Message")

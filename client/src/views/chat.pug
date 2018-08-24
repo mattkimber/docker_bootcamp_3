@@ -1,0 +1,6 @@
+ul
+  each item in data
+    li 
+      | #{moment(item.timestamp).format('hh:mm:ss')}
+      strong  #{"<" + item.username + "> "}
+      | #{item.message}

@@ -1,0 +1,17 @@
+div#chat {
+  height: 300px;
+  overflow: scroll;
+  background-color: black;
+  color: gray;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+div#chat ul li {
+  list-style: none;
+  margin-left: 0px;
+}
+
+div#chat ul li strong {
+  color: lightgray;
+}
+
