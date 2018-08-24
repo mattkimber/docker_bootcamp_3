@@ -22,6 +22,6 @@ RUN npm install
 
 COPY ./src /home/node
 
-ENV API_URL="http://www.google.com/"
+ENV API_URL="http://chatserver:3000"
 
 ENTRYPOINT ["node", "/home/node/index.js"]
